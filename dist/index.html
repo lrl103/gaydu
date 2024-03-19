@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sundown Studio</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="./assets/icon.png" sizes="16X16">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body class="h-full w-full bg-[#EFEAE3] box-border">
+    <main class="h-screen w-auto mx-auto overflow-x-hidden ">
+        <!-- Hearder -->
+        <header>
+            <nav class="w-full px-6 pt-[1.7vw] md:px-8  flex items-center justify-between ">
+                <!-- logo -->
+                <div>
+                    <img class="h-14 md:h-16" src="./assets/logo.png" alt="" srcset="">
+                </div>
+                <!-- modile-nav -->
+                <div>
+                    <div class="mnav__div relative px-6 py-2  z-10 flex gap-1 border-[1px] border-[#C1BCB6] rounded-full md:hidden">
+                        <i class="mnav__icon  ri-menu-line"></i>
+                        <h3>Menu</h3>
+                    </div>
+                </div>
+                <!-- Toggle Mobile Nav -->
+                <div class="mnav h-80 w-full absolute bg-[#f1e9e0] rounded-b-3xl shadow-xl left-0 -top-[330px] transition-all duration-1000 md:hidden">
+                    <div class="absolute bottom-10 right-6 flex flex-col text-right text-6xl font-bold" >
+                        <a href="#">WORK</a>
+                        <a href="#">STUDIO</a>
+                        <a href="#">CONTACT</a>
+                    </div>
+                </div>
+                <!-- Desktop Nav -->
+                <div class=" hidden gap-2 md:flex">
+                    <h4 class="nav-text group">
+                        <a class="navText-hover" href="#"> Work </a>
+                        <span class="absolute left-0 -bottom-14 rounded-[90%] bg-black w-[100px] h-14 group-hover:bottom-0 group-hover:rounded-none transition-all duration-700"></span>
+                    </h4>
+                    <h4 class="nav-text group">
+                        <a class="navText-hover" href="#"> Studio </a>
+                        <span class="absolute left-0 -bottom-14 rounded-[90%] bg-black w-28 h-14 group-hover:bottom-0 group-hover:rounded-none transition-all duration-700"></span>
+                    </h4>
+                    <h4 class="nav-text group">
+                        <a class="navText-hover" href="#"> Contact </a>
+                        <span class="absolute left-0 -bottom-14 rounded-[90%] bg-black w-32 h-14 group-hover:bottom-0 group-hover:rounded-none transition-all duration-700"></span>
+                    </h4>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Section1 div -->
+        <div class="w-full">
+            <div class="px-6 md:px-8">
+                <div class="mt-[12vh] pb-10 gap-y-14 md:gap-y-0 flex flex-col-reverse justify-between md:flex-row md:items-end font-s font-Arial">
+    
+                    <h1 class=" text-left text-xl lg:text-[24px]  font-semibold lg:font-bold tracking-tighter leading-[20px] xl:leading-[25px]"
+                    >
+                    Sundown is a multi-disciplinary<br>studio focused on creating<br>unique, end-to-end experiences<br>and environments
+                    </h1>
+        
+                    <h1 class="text-right text-6xl sm:text-[90px] md:text-[112px] lg:text-[132px] xl:text-[152px] 2xl:text-[166px] font-bold   tracking-tighter leading-[50px] sm:leading-[78px] md:leading-[90px] lg:leading-[105px] xl:leading-[122px] 2xl:leading-[132px]"
+                    >SPACES<br>THAT<br>INSPIRE
+                    </h1>
+                </div>
+                <hr class=" border border-gray-500 opacity-50">           
+            </div>
+            <!-- Div animation -->
+            <div class="relative">
+                <div class="h-72 w-80 sm:h-[280px] sm:w-[400px] md:h-[320px] md:w-[450px] lg:h-[350px] lg:w-[550px] 
+                xl:h-[500px] xl:w-[900px] absolute -right-20 -top-20 bg-gradient-to-r from-[#FE330A] to-[#fa4b05]
+                rounded-l-[50%] blur-lg animate-hero1 "></div>
+                <div class="h-44 w-44 sm:h-56 sm:w-56 md:h-60 md:w-60 lg:h-80 lg:w-80 xl:h-96 xl:w-96 absolute right-[20%] top-0 bg-[#FE330A] rounded-[50%] blur-lg  animate-hero2 "></div>
+                <div class="h-44 w-44 sm:h-56 sm:w-56 md:h-60 md:w-60  lg:h-80 lg:w-80 xl:h-[400px] xl:w-[400px] absolute right-[15%] top-0  bg-[#FE330A] rounded-[50%] blur-lg  animate-hero3 "></div>
+            </div>
+            <!-- video -->
+            <div class="relative aspect-4/5 sm:aspect-video z-10 px-6 md:px-8">
+                <video class=" mt-14 mb-4 h-full w-full rounded-2xl object-cover " autoplay loop muted src="./assets/c72af10b.mp4"></video>
+            </div>
+        </div>
+        
+        <!-- Section2 div  -->
+        <div>
+            <!-- Scrolling text -->
+            <div>
+                <div class=" whitespace-nowrap overflow-x-auto scrollbar-none">
+                    <div class="scrolling-text">
+                        <h1 class="moving-text">EXPERIENCES</h1>
+                        <div class="moving-textCicel"></div>
+                        <h1 class="moving-text">CONTENT</h1>
+                        <div class="moving-textCicel"></div>
+                        <h1 class="moving-text">ENVIRONMENTS</h1>
+                        <div class="moving-textCicel"></div>
+                    </div>
+                    <div class="scrolling-text">
+                        <h1 class="moving-text">EXPERIENCES</h1>
+                        <div class="moving-textCicel"></div>
+                        <h1 class="moving-text">CONTENT</h1>
+                        <div class="moving-textCicel"></div>
+                        <h1 class="moving-text">ENVIRONMENTS</h1>
+                        <div class="moving-textCicel"></div>
+                    </div>
+                    <div class="scrolling-text">
+                        <h1 class="moving-text">EXPERIENCES</h1>
+                        <div class="moving-textCicel"></div>
+                        <h1 class="moving-text">CONTENT</h1>
+                        <div class="moving-textCicel"></div>
+                        <h1 class="moving-text">ENVIRONMENTS</h1>
+                        <div class="moving-textCicel"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- part2 -->
+                     <!-- animation div -->
+            <div class="relative -z-10">
+                <div class="absolute -right-10  sm:right-[25%] top-32 sceound-animation-div bg-[#FF8E2D] shadow-lg 
+                shadow-[#FF8E2D] blur-xl animate-hero4 "></div>
+                <div class="absolute -right-8 sm:right-[23%] top-40 sceound-animation-div bg-[#FE360C] shadow-2xl 
+                shadow-[#FE360C] blur-xl animate-hero4 "></div>
+            </div>
+              <!-- text img  -->
+            <div class="px-6 md:px-16 mt-16 mb-16 md:flex items-center justify-between">
+                <div class="mb-10 z-10">
+                    <h1 class="part2-h1">We are a group of design-driven, goal-focused creators, producers, and designers who believe that the details make all the difference.</h1>
+                </div>
+                <div class=" w-[300px] md:w-[20vw] z-10">
+                    <img src="./assets/img1.jpg" class="mb-9 rounded-lg">
+                    <p class="text-sm tracking-tighter">We love to create, we love to solve, we love to collaborate, and we love to turn amazing ideas into reality. We’re here to partner with you through every step of the process and know that relationships are the most important things we build.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Section3 div -->
+        <div>
+            <div class="px-6 md:px-8">
+                <!-- heading -->
+                <div class="my-8 flex items-center justify-start">
+                    <div class="h-2 w-2 bg-red-600 rounded-[50%] mr-2"></div>
+                    <h1 class="uppercase text-sm">featured projects</h1>
+                </div>
+                <!-- mobile part -->
+                <div>
+                    <!-- 1st div -->
+                    <div class=" sm:columns-2">
+                        <div class="mb-10">
+                            <div class=" aspect-4/5 mb-4">
+                                <img class="h-full w-full object-cover rounded-lg" src="./assets/img2.jpg" alt="no img">
+                            </div>
+                            <h1 class=" text-2xl md:text-3xl font-bold">Air Force 12021</h1>
+                            <h4 class=" text-sm md:text-lg leading-3 md:leading-5">NIKE</h4>
+                            <h6 class="text-xs text-[#80807f]">Environment</h6>
+                        </div>
+                        <div class="mb-10">
+                            <div class=" aspect-4/5 mb-4">
+                                <img class="h-full w-full object-cover rounded-lg" src="./assets/img3.jpg" alt="no img">
+                            </div>
+                            <h1 class=" text-2xl md:text-3xl font-bold">SOHO NYC</h1>
+                            <h4 class=" text-sm md:text-lg leading-3 md:leading-5 uppercase">Arc’teryx</h4>
+                            <h6 class="text-xs md:text-sm text-[#80807f]">Environment</h6>
+                        </div>
+                    </div>
+                    <!-- 2nd div -->
+                    <div class="sm:columns-2">
+                        <div class="mb-10">
+                            <div class=" aspect-4/5 mb-4">
+                                <img class="h-full w-full object-cover rounded-lg" src="./assets/img4.jpg" alt="no img">
+                            </div>
+                            <h1 class=" text-2xl md:text-3xl font-bold">Makers Studio HOI</h1>
+                            <h4 class=" text-sm  md:text-lg leading-3 md:leading-5">NIKE</h4>
+                            <h6 class="text-xs md:text-sm  text-[#80807f]">Experiential</h6>
+                        </div>
+                        <div class="mb-10">
+                            <div class=" aspect-4/5 mb-4">
+                                <video class="h-full w-full object-cover rounded-lg" autoplay loop muted src="./assets/c72af10b.mp4"></video>
+                            </div>
+                            <h1 class=" text-2xl md:text-3xl font-bold">SOHO 2023</h1>
+                            <h4 class=" text-sm md:text-lg leading-3 md:leading-5 uppercase">converse</h4>
+                            <h6 class="text-xs md:text-sm text-[#80807f]">Environment</h6>
+                        </div>
+                    </div>
+                    <!-- 3rd div -->
+                    <div class=" sm:columns-2">
+                        <div class="mb-10">
+                            <div class=" aspect-4/5 mb-4">
+                                <img class="h-full w-full object-cover rounded-lg" src="./assets/img5.jpg" alt="no img">
+                            </div>
+                            <h1 class=" text-2xl md:text-3xl font-bold">50th Anniversary</h1>
+                            <h4 class=" text-sm  md:text-lg leading-3 md:leading-5">NIKE</h4>
+                            <h6 class="text-xs md:text-sm text-[#80807f]">Environment</h6>
+                        </div>
+                        <div class="mb-10">
+                            <div class=" aspect-4/5 mb-4">
+                                <video class="h-full w-full object-cover rounded-lg" autoplay loop muted src="./assets/3fa8f0d4-b71437cc.mp4"></video>
+                            </div>
+                            <h1 class=" text-2xl md:text-3xl font-bold">NYFW Popup</h1>
+                            <h4 class=" text-sm md:text-lg leading-3 md:leading-5 uppercase">afterpay</h4>
+                            <h6 class="text-xs md:text-sm text-[#80807f]">Experiential</h6>
+                        </div>
+                    </div>
+                    <!-- 4th part -->
+                    <div class="mb-10 ">
+                        <div class=" relative aspect-4/5 sm:h-0 sm:pb-2/3 sm:pt2/3 mb-4">
+                            <video class="h-full w-full object-cover rounded-lg sm:absolute sm:inset-0" autoplay loop muted src="./assets/6794612c-4b3b172e.mp4"></video>
+                        </div>
+                        <h1 class=" text-2xl md:text-3xl font-bold">Play New Kidvision</h1>
+                        <h4 class=" text-sm md:text-lg leading-3 md:leading-5 uppercase">NIKE</h4>
+                        <h6 class="text-xs md:text-sm text-[#80807f]">Environment</h6>
+                    </div>
+                </div>
+                <div>
+                    <div class=" px-4 py-2  gap-2 w-fit border-[1px] border-gray-700 rounded-3xl flex items-center justify-between cursor-pointer"> 
+                        <a class=" font-semibold" href="#">All Projects</a>
+                        <i class="text-xl ri-arrow-right-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- JS -->
+    <script src="Javascript/script.js"></script>
+</body>
+</html>
